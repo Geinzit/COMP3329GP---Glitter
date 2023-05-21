@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 2da3fecd1d561ed46b1630c2d2d6f492
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - flashMaterial: {fileID: 2100000, guid: 29e48150fde86b641adc6a4c28d30d25, type: 2}
+  - BleedingEffect: {fileID: 1835467835364557147, guid: ac9a26e0533439e4eb08e0c29ba90a62, type: 3}
+  - damageNumber: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

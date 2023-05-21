@@ -1,0 +1,600 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1682849241411145, "dur": 1224804, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682849241411388, "dur": 21990, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682849241433446, "dur": 30457, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682849241463906, "dur": 631508, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682849242095416, "dur": 527469, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682849242622888, "dur": 13060, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682849242636285, "dur": 8, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1682849241888679, "dur": 185852, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682849241889399, "dur": 32385, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682849242050658, "dur": 8631, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682849242059293, "dur": 15230, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682849242060138, "dur": 6958, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682849242077974, "dur": 947, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682849242077411, "dur": 1528, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682849242636356, "dur": 285, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1682849242125683, "dur":1603, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242127292, "dur":40, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1682849242127340, "dur":14, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1682849242127354, "dur":419, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1682849242127790, "dur":18233, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242146023, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242511501, "dur":44, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242511545, "dur":381, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242511926, "dur":185, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512111, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512115, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512117, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512122, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512122, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512125, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512126, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512129, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512129, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512133, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512134, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512136, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512137, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512140, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512141, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512143, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512144, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512147, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512148, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512150, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512151, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512154, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512155, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512158, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512159, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512161, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512162, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512165, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512165, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512168, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512168, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512171, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512172, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512174, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512175, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512178, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512179, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512181, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512192, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242512207, "dur":8618, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1682849242127769, "dur":18370, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682849242146144, "dur":1867, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682849242148019, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682849242148023, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682849242175621, "dur":10477, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682849242186102, "dur":3272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682849242189377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682849242189382, "dur":1205, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682849242190588, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242190663, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682849242190666, "dur":33601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242224567, "dur":1378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242225948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682849242225954, "dur":4402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242230612, "dur":582, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242231196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682849242231200, "dur":4189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242235439, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242235712, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682849242235718, "dur":2285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242238042, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242238164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682849242238171, "dur":5031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242243472, "dur":659, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242244133, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682849242244137, "dur":6019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242250248, "dur":719, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242250970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682849242250976, "dur":2628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242253641, "dur":27154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242280799, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682849242280807, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242281799, "dur":25156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242306959, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682849242306965, "dur":4948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242312020, "dur":17607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242329630, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682849242329636, "dur":669, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242330326, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242330486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682849242330493, "dur":612, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242331126, "dur":22352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242354402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682849242354408, "dur":2232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242356684, "dur":95826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242452513, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682849242452520, "dur":734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682849242453271, "dur":58184, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242128253, "dur":17946, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242146199, "dur":1897, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242148096, "dur":18324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1682849242166422, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242166458, "dur":9868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1682849242176529, "dur":2534, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242179065, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242179114, "dur":1894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242181024, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242181093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242181097, "dur":644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242181755, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242185972, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242185981, "dur":4145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242190144, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242190249, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242190252, "dur":34019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242224424, "dur":1540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242230111, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242230117, "dur":5351, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242235588, "dur":228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242235819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242235825, "dur":7246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242243408, "dur":679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242244090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242244097, "dur":1310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242245424, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242250090, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242250098, "dur":1481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242251613, "dur":19150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242270768, "dur":87, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242270862, "dur":721, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242271615, "dur":20872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242292493, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242292502, "dur":852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242293377, "dur":18973, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242312353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242312358, "dur":3811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242316347, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242316764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242316770, "dur":937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242317732, "dur":184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242320937, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242320948, "dur":1747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242322717, "dur":34496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242359606, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242359614, "dur":2175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682849242361817, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1682849242364272, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242364347, "dur":881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":2, "ts":1682849242365247, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1682849242365318, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242365323, "dur":3404, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1682849242368831, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1682849242368881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242368886, "dur":2715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1682849242371645, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1682849242371674, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242371679, "dur":1223, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1682849242372961, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1682849242373050, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682849242373058, "dur":3429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1682849242376594, "dur":134944, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682849242127863, "dur":18287, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682849242146150, "dur":1965, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682849242148115, "dur":200988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682849242349106, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682849242349167, "dur":5210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682849242354477, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682849242354756, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682849242354761, "dur":4807, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682849242359647, "dur":26910, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682849242386657, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682849242386664, "dur":2550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682849242389242, "dur":122285, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682849242127921, "dur":18250, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682849242146171, "dur":1943, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682849242148114, "dur":2042, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1682849242153214, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682849242312800, "dur":4835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1682849242317662, "dur":31757, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682849242349421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682849242349426, "dur":744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682849242350195, "dur":29778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682849242379977, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682849242379984, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682849242381356, "dur":130062, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682849242127951, "dur":18228, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682849242146180, "dur":1929, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682849242148109, "dur":1430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1682849242149540, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682849242262625, "dur":1810, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1682849242264472, "dur":40944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682849242305419, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682849242305426, "dur":6477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682849242311997, "dur":572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682849242312572, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682849242312577, "dur":3590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682849242316380, "dur":21157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682849242337542, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682849242337552, "dur":1021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682849242338600, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682849242338701, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682849242338707, "dur":748, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682849242339473, "dur":51518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682849242393570, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682849242393581, "dur":873, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682849242394470, "dur":117022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682849242128065, "dur":18122, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682849242146187, "dur":1922, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682849242148109, "dur":1830, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1682849242153210, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682849242304191, "dur":7739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1682849242312040, "dur":41298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682849242354399, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682849242354406, "dur":2228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682849242356681, "dur":236, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682849242356920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682849242359553, "dur":2036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682849242361626, "dur":21186, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682849242382820, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682849242383250, "dur":3374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682849242386678, "dur":124722, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682849242128153, "dur":18038, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682849242146191, "dur":1914, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682849242148106, "dur":1348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1682849242149456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682849242175017, "dur":1947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1682849242176982, "dur":1320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242178304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682849242178444, "dur":1169, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242179630, "dur":1637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242181269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682849242181273, "dur":4822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242189300, "dur":579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242189889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682849242189894, "dur":34367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242224430, "dur":631, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242225064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682849242225069, "dur":5226, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242230604, "dur":662, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242231269, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682849242231274, "dur":4164, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242235488, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242235716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682849242235720, "dur":7406, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242243297, "dur":1093, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242244393, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682849242244398, "dur":5843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242250618, "dur":53323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242304171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682849242304177, "dur":2412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242306617, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242306740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682849242306748, "dur":5160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242312016, "dur":597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242312616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682849242312622, "dur":3573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242316473, "dur":36808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242354394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682849242354402, "dur":5198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242359683, "dur":20166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242379853, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1682849242379862, "dur":1328, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1682849242381229, "dur":130193, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682849242128356, "dur":17846, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682849242146202, "dur":1894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682849242148096, "dur":1469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1682849242149566, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682849242269340, "dur":1240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1682849242270625, "dur":86990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682849242359643, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682849242359650, "dur":4618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1682849242364309, "dur":19455, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1682849242383767, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1682849242383774, "dur":2865, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":8, "ts":1682849242386692, "dur":124725, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682849242128646, "dur":17576, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682849242146223, "dur":1864, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682849242148088, "dur":1393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1682849242149482, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682849242231216, "dur":4265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1682849242235575, "dur":233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682849242235811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682849242235817, "dur":7364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682849242243406, "dur":749, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682849242244158, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682849242244164, "dur":6037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682849242250449, "dur":559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682849242251011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682849242251018, "dur":2489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682849242253556, "dur":39562, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682849242293122, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682849242293131, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682849242294143, "dur":19218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682849242316119, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682849242316130, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682849242317323, "dur":25981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682849242343308, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682849242343316, "dur":3284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682849242346640, "dur":29501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682849242376533, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1682849242376546, "dur":1176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1682849242377761, "dur":133711, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682849242128450, "dur":17761, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682849242146211, "dur":1878, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682849242148089, "dur":1380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1682849242149471, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682849242186005, "dur":38112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":10, "ts":1682849242224205, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682849242224466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682849242224470, "dur":5666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682849242230164, "dur":407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682849242230573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682849242230595, "dur":4740, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682849242235376, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682849242235464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682849242235474, "dur":714, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682849242236225, "dur":270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682849242236498, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682849242236503, "dur":6691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682849242243358, "dur":787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682849242244147, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682849242244151, "dur":6067, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682849242250518, "dur":516, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682849242251037, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682849242251041, "dur":10173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682849242261261, "dur":42641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682849242304160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682849242304167, "dur":2519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682849242306708, "dur":772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682849242311862, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682849242311871, "dur":4276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682849242316284, "dur":34490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682849242350777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682849242350782, "dur":3492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682849242354312, "dur":32647, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682849242386963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1682849242386970, "dur":2391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1682849242389383, "dur":122146, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682849242128550, "dur":17664, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682849242146214, "dur":1874, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682849242148088, "dur":19536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1682849242167626, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682849242167679, "dur":8326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1682849242176031, "dur":327373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682849242503408, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1682849242503413, "dur":7916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1682849242511351, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":11, "ts":1682849242511353, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682849242128946, "dur":17290, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682849242146236, "dur":1836, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682849242148072, "dur":1438, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1682849242149511, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682849242250969, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1682849242253251, "dur":44911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682849242298166, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682849242298175, "dur":735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682849242298927, "dur":20669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682849242320995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682849242321004, "dur":1605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682849242322632, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682849242322799, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682849242322806, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682849242323866, "dur":117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682849242323986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682849242323993, "dur":3209, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682849242327255, "dur":29782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682849242359576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682849242359584, "dur":4719, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1682849242364371, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1682849242364475, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1682849242364480, "dur":30374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":12, "ts":1682849242394875, "dur":116593, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682849242128741, "dur":17484, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682849242146225, "dur":1881, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682849242148106, "dur":15559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1682849242163667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682849242163888, "dur":12265, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1682849242176334, "dur":333, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1682849242176670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682849242177267, "dur":13033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":13, "ts":1682849242190320, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682849242190418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682849242190422, "dur":33927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682849242224632, "dur":492, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682849242225127, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682849242225131, "dur":5219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682849242230637, "dur":72713, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682849242303353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682849242303359, "dur":977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682849242304830, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682849242304947, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682849242304952, "dur":2019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682849242306992, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682849242311816, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682849242311824, "dur":4289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682849242316153, "dur":39950, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682849242356109, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682849242356119, "dur":3498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682849242359724, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682849242360037, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682849242360042, "dur":4290, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1682849242364446, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1682849242364546, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682849242364550, "dur":8477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1682849242373053, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/level1" }}
+,{ "pid":12345, "tid":13, "ts":1682849242373075, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1682849242373080, "dur":15651, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/level1" }}
+,{ "pid":12345, "tid":13, "ts":1682849242388757, "dur":122660, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682849242128841, "dur":17393, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682849242146234, "dur":1853, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682849242148087, "dur":11990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1682849242160080, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682849242160660, "dur":1500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1682849242162184, "dur":102079, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682849242264268, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682849242264554, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682849242266016, "dur":36502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682849242302523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682849242302531, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682849242303404, "dur":56746, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682849242360153, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682849242360158, "dur":4177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1682849242364432, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":14, "ts":1682849242364537, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1682849242364544, "dur":11967, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":14, "ts":1682849242376605, "dur":134822, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682849242129115, "dur":17133, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682849242146248, "dur":1808, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682849242148057, "dur":14540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1682849242162599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682849242162787, "dur":13310, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1682849242176206, "dur":148211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1682849242324420, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682849242324426, "dur":2782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":15, "ts":1682849242327268, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682849242327426, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682849242327434, "dur":808, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682849242328262, "dur":23094, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682849242351359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682849242351365, "dur":3003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682849242354453, "dur":24171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682849242378630, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1682849242378643, "dur":871, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1682849242379548, "dur":131875, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682849242129034, "dur":17211, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682849242146246, "dur":1822, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682849242148068, "dur":16090, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1682849242164161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682849242164220, "dur":11897, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":16, "ts":1682849242176211, "dur":22146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter.exe" }}
+,{ "pid":12345, "tid":16, "ts":1682849242224349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682849242224354, "dur":1563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter.exe" }}
+,{ "pid":12345, "tid":16, "ts":1682849242225931, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682849242230122, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682849242230128, "dur":2099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682849242232260, "dur":72560, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682849242304823, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682849242304830, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682849242306900, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682849242306992, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682849242307005, "dur":4919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682849242312023, "dur":47462, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682849242359654, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682849242359661, "dur":4653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1682849242364406, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":16, "ts":1682849242364520, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682849242364525, "dur":4214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":16, "ts":1682849242368864, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/resources.assets" }}
+,{ "pid":12345, "tid":16, "ts":1682849242368897, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682849242368902, "dur":2686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/resources.assets" }}
+,{ "pid":12345, "tid":16, "ts":1682849242371639, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1682849242371670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682849242371678, "dur":1408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1682849242373109, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/level0" }}
+,{ "pid":12345, "tid":16, "ts":1682849242373129, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1682849242373132, "dur":3369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/level0" }}
+,{ "pid":12345, "tid":16, "ts":1682849242376602, "dur":134894, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682849242129220, "dur":17037, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682849242146257, "dur":1810, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682849242148068, "dur":1439, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":17, "ts":1682849242149507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682849242243218, "dur":1611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":17, "ts":1682849242244875, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682849242245039, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682849242245045, "dur":5187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682849242250577, "dur":32794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682849242283376, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682849242283383, "dur":3590, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682849242287029, "dur":25292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682849242312324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682849242312331, "dur":3858, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682849242316472, "dur":315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682849242316790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682849242316796, "dur":4099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682849242320956, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682849242321162, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682849242321167, "dur":1545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682849242322778, "dur":28977, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682849242351758, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682849242351764, "dur":2604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682849242354426, "dur":31132, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682849242386647, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1682849242386661, "dur":2397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1682849242389084, "dur":122447, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1682849242129317, "dur":16943, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1682849242146260, "dur":1822, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1682849242148087, "dur":1748, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":18, "ts":1682849242153204, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1682849242296788, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":18, "ts":1682849242297893, "dur":59518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1682849242359636, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1682849242359644, "dur":4652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1682849242364362, "dur":230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/boot.config" }}
+,{ "pid":12345, "tid":18, "ts":1682849242364594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1682849242364599, "dur":1470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/boot.config" }}
+,{ "pid":12345, "tid":18, "ts":1682849242366093, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":18, "ts":1682849242368710, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1682849242368725, "dur":7800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":18, "ts":1682849242376608, "dur":134887, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1682849242129341, "dur":16928, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1682849242146269, "dur":1743, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1682849242148019, "dur":31701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":19, "ts":1682849242179723, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1682849242179946, "dur":619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":19, "ts":1682849242180585, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682849242180709, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1682849242180713, "dur":923, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682849242181653, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682849242181802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1682849242181806, "dur":4283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682849242189305, "dur":231, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682849242189538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1682849242189542, "dur":34571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682849242224185, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682849242224277, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1682849242224282, "dur":1458, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682849242225761, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682849242230068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1682849242230074, "dur":1214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682849242231358, "dur":27628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682849242261263, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1682849242261272, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682849242262412, "dur":36206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682849242298620, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1682849242298626, "dur":752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682849242299401, "dur":19906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682849242320984, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1682849242320992, "dur":1450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682849242322472, "dur":24855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682849242347330, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1682849242347336, "dur":744, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682849242348097, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682849242348165, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1682849242348171, "dur":720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682849242348907, "dur":37945, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682849242386855, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1682849242386862, "dur":2513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1682849242389394, "dur":122004, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1682849242129377, "dur":16898, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1682849242146275, "dur":1765, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1682849242148040, "dur":1433, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":20, "ts":1682849242149475, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1682849242225462, "dur":4828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":20, "ts":1682849242230632, "dur":80171, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":20, "ts":1682849242311935, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1682849242311942, "dur":4200, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":20, "ts":1682849242316258, "dur":34453, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1682849242350715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1682849242350723, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1682849242351895, "dur":703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1682849242354379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1682849242354388, "dur":2121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1682849242356540, "dur":32536, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1682849242389079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1682849242389087, "dur":697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/heinz/Desktop/Glitter v1.5/Glitter_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1682849242389800, "dur":121601, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682849242533573, "dur":62129, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1682849242636681, "dur": 4399, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682849242636274, "dur": 4819, "ph": "X", "name": "Write chrome-trace events", "args": {} },
