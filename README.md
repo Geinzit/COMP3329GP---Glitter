@@ -4,8 +4,8 @@ Final game project for the course COMP3329
 A simple video trailer: https://youtu.be/0p2P0n_DweY
 
 # Installation Guide
-The first link in the submitted files contains a pre-built version of the game for the Windows platform. Windows is the tested and intended platform for the game to run on.
-But if you desire to play this game on linux or Mac, simply go to the second link and download the project source code files and open it with a Unity Editor and build it yourself.
+The release zip contains a pre-built version of the game for the Windows platform. Windows is the tested and intended platform for the game to run on.
+But if you desire to play this game on linux or Mac, simply download the project source code files and open it with a Unity Editor and build it yourself.
 
 
 # Gameplay Instruction
